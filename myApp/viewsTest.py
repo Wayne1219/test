@@ -44,6 +44,9 @@ def show(request):
 	person2={"name":"Jack","phone":"02-4455666","age":25}
 	person3={"name":"Nacy","phone":"04-9876543","age":17}
 	persons=[person1,person2,person3]
+	i={"1":1, "2":2, "3":3, "4":4, "5":5, "6":6, "7":7, "8":8, "9":9}
+	j={"1":1, "2":2, "3":3, "4":4, "5":5, "6":6, "7":7, "8":8, "9":9}
+	num=[i*j]
 	return render(request,"show.html",locals())
 
 
